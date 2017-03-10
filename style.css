@@ -1,5 +1,5 @@
 body, html {
-    height: 100vh;
+    height: 100%;
 }
 
 body {
@@ -15,16 +15,16 @@ body {
 }
 
 .header {
-	width: 100vw;
+	width: 100%;
 	position: absolute;
-	top: 50vh;
-	left: 50vh;
+	top: 50%;
+	left: 50%;
 	text-align: center;
-	-webkit-transform: translate(-50vh,-50vh);
-    -moz-transform: translate(-50vh,-50vh);
-    -ms-transform: translate(-50vh,-50vh);
-    -o-transform: translate(-50vh,-50vh);
-    transform: translate(-50vh,-50vh);
+	-webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
 }
 
 .header h1 {
@@ -37,7 +37,7 @@ body {
     /* The image used */
     
     /* Full height */
-    height: 100vh; 
+    height: 100%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -48,13 +48,13 @@ body {
 
 .content-container {
 	background-color: rgba(0,0,0,0.95);
-	height: 100vh;
+	height: 100%;
 	z-index: 2;
 }
 
 .content {
-	padding-left: 25vh;
-	width: 50vw;
+	padding-left: 25%;
+	width: 50%;
 	text-align: center;
 }
 
@@ -66,11 +66,11 @@ body {
 }
 
 .submission-form {
-	padding-top: 25vh;
+	padding-top: 25%;
 }
 
 input, textarea {
-  width: 100vw;
+  width: 100%;
   margin: 5px;
   padding: 10px;
   border: solid 1px #dcdcdc;
